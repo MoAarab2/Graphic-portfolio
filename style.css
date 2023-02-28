@@ -85,6 +85,8 @@ a{
   color: inherit;
  }
 
+ 
+
 embed {
   height: 270px;
   width: 270px;
@@ -414,6 +416,12 @@ footer {
   .links-verder {
     margin: 0 20px;
     margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* width: 80%; */
+    align-items: center;
+    justify-content: center;
   }
 
   .links-verder a {
