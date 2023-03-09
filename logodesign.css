@@ -90,14 +90,6 @@
   .links-verder {
     margin-top: 25px;
   }
-
-  @media only screen and (max-width: 1024px){
-    .links-verder {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  }
   
   .links-verder a {
     border: 1px solid var(--primary-color);
