@@ -134,6 +134,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 20%;
+  
 }
 
 #projects {
@@ -186,7 +187,9 @@ footer {
 
 /* Home Section */
 .title-group {
+  
   text-align: center;
+
 }
 
 #btn-container {
