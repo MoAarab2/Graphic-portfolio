@@ -430,6 +430,7 @@ footer {
   .links-verder a {
     border: 1px solid var(--primary-color);
     padding: 5px;
+    margin: 0;
   }
 
   .links-verder a:hover {
