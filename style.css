@@ -59,7 +59,7 @@ h1 {
 }
 
 h2 {
-  color: var(--on-background-alt);
+  color: var(--on-background);
   font-size: 4em;
   font-weight: bold;
 }
@@ -81,19 +81,38 @@ a{
   text-decoration: none;
 }
 
-/* ui-kit adjustments*/
+.project-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 150px; 
+}
 
-.uk-link-toggle:hover .uk-link, .uk-link:hover, a:hover{
-  color: inherit;
+.project-header h1{
+  color: var(--primary-variant);
+}
+
+
+
+  
+.links-verder a {
+  border: 1px solid var(--primary-color);
+  padding: 5px;
+  justify-content: center;
+  gap: 15%;
+  margin-right: 0;  
+  color: var(--primary-variant);
   text-decoration: none;
 }
 
-.uk-link, a{
-  text-decoration: none;
-  color: inherit;
- }
+.links-verder a:hover {
+  background-color: var(--primary-color);
+  color: whitesmoke;
+}
+/* ui-kit adjustments*/
 
- 
+
 
 embed {
   height: 270px;
@@ -107,34 +126,6 @@ footer {
   margin: 10px auto;
 }
 
-.uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6, .uk-heading-2xlarge, .uk-heading-large, .uk-heading-medium, .uk-heading-small, .uk-heading-xlarge, h1, h2, h3, h4, h5, h6{
-  color: inherit;
-}
-
-.uk-lightbox-items > * {
-  background: #fff;
-}
-
-.uk-lightbox-button{
-  color:  var(--primary-color);
-}
-
-.uk-lightbox-button:hover{
-  color:var(--secondary-color);
-}
-
-.uk-lightbox-toolbar, .uk-lightbox-button{
-  background: transparent;
-}
-
-
-.uk-close{
-  color:  var(--primary-color);
-}
-
-.uk-close:hover{
-  color:  var(--secondary-color);
-}
 
 
 #home {
@@ -149,6 +140,10 @@ footer {
   background-image: url("./pages/images/pexels-lukas-1420701-light.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#about{
+  margin: 10% auto;
 }
 
 @media only screen and (max-width: 800px) {
@@ -194,11 +189,6 @@ footer {
 }
 
 /* Home Section */
-.title-group {
-  
-  text-align: center;
-
-}
 
 #btn-container {
   display: flex;
@@ -365,14 +355,6 @@ footer {
 
 /* projects style */
 
-.projects-title-container {
-  min-height: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
 .column{
   margin-top: 30px;
 }
@@ -439,21 +421,7 @@ footer {
     justify-content: center;
   }
 
-  .links-verder a {
-    border: 1px solid var(--primary-color);
-    padding: 5px;
-    margin: 0;
-  }
 
-  .links-verder a:hover {
-    background-color: var(--primary-color);
-    color: whitesmoke;
-  }
-
-  .title-group {
-    margin: 0;
-    padding: 0;
-  }
 
   #thank img {
     width: 60vw;
@@ -514,11 +482,4 @@ footer {
   #projects {
     background-image: none;
   }
-}
-
-.web-text p{
-  max-width: 1200px; /* Adjust the maximum width according to your preference */
-  width: 100%;
-  margin: 0 200px; /* Adjust the side spacing according to your preference */
-  box-sizing: border-box;
 }

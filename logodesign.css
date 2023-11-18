@@ -86,20 +86,4 @@
   .grid-print img:hover {
     transform: translate3d(0px, -10px, 0px);
   }
-  
-  .links-verder {
-    margin-top: 25px;
-  }
-  
-  .links-verder a {
-    border: 1px solid var(--primary-color);
-    padding: 5px;
-    justify-content: center;
-    gap: 15%;
-    margin-right: 0;
-  }
-  
-  .links-verder a:hover {
-    background-color: var(--primary-color);
-    color: whitesmoke;
-  }
+
