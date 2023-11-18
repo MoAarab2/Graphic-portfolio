@@ -1,6 +1,14 @@
 
-.web-text{
-
+.web-text {
     margin: 50px 200px!important; /* Adjust the side spacing according to your preference */
     box-sizing: border-box;
   }
+  
+  /* Media query for mobile devices */
+  @media only screen and (max-width: 767px) {
+    .web-text {
+      margin: 50px 20px!important; /* Adjust the side spacing according to your preference */
+      box-sizing: border-box;
+    }
+  }
+  
